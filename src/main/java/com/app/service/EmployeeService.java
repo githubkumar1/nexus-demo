@@ -13,8 +13,8 @@ import java.util.List;
 public class EmployeeService {
 
     @Autowired
-    public EmployeeService(EmployeeRepository employeeRepository){
-        this.employeeRepository=employeeRepository;
+    public EmployeeService(EmployeeRepository employeeRepository) {
+        this.employeeRepository = employeeRepository;
     }
 
     private EmployeeRepository employeeRepository;

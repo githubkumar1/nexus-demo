@@ -63,7 +63,7 @@
     </distributionManagement>
 
     <build>
-        <finalName>swagger-demo</finalName>
+        <finalName>springboot-nexus-demo</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

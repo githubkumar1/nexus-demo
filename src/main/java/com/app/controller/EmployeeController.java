@@ -14,14 +14,14 @@ import java.util.List;
 public class EmployeeController {
 
     @Autowired
-    public EmployeeController(EmployeeService employeeService){
-        this.employeeService=employeeService;
+    public EmployeeController(EmployeeService employeeService) {
+        this.employeeService = employeeService;
     }
 
     private EmployeeService employeeService;
 
     @GetMapping("/getEmployees")
-    public List<Employee> getAllEmployees(){
+    public List<Employee> getAllEmployees() {
         return employeeService.getEmployees();
     }
 }

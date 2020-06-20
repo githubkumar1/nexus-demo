@@ -15,14 +15,14 @@ import java.util.List;
 public class InitService {
 
     @Autowired
-    public InitService(EmployeeRepository employeeRepository){
-        this.employeeRepository=employeeRepository;
+    public InitService(EmployeeRepository employeeRepository) {
+        this.employeeRepository = employeeRepository;
     }
 
     private EmployeeRepository employeeRepository;
 
     @Bean
-    public void addEmployees(){
+    public void addEmployees() {
         List<Employee> employeeList = Arrays.asList(
                 new Employee(1, "ann", "ann@live.com"),
                 new Employee(2, "john", "john@live.com"),
